@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.div1{
+    background-image: url('./1.jpg');
+    width: 500px;
+    height: 500px;
+
+    /* নিচের গুলা দরকার জাস্ট alignment এর জন্য দেয়া */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div2{
+    /* এই ডিভের মূল কালারটা হইলো - #ade8f4 বা rgb(173, 232, 244) বা rgba(173, 232, 244, 1) */
+    /* rgba এর a দিয়া alpha বা অপাসিটি (ট্রান্সপারেন্সি) বুঝায়। ভ্যালু ০ থেকে ১ পর্যন্ত হইতে পারে। চাইলে পারসেন্টেজও ইউজ করা যায় */
+
+    background-color:rgba(173, 232, 244, .2); /* এইখানে .২ ইউজ কইরা ট্রান্সপারেন্ট একটা ভাব আনা হইসে। */
+    width: 350px;
+    height: 350px;
+
+    /* নিচের গুলা দরকার জাস্ট alignment এর জন্য দেয়া */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div3{
+    background-color:#48cae4; /* এইখানেও চাইলে rgba/rgb ইউজ করা যায়। rgba ইউজ কইরা, ট্রান্সপারেন্সি ফুল রাখতে চাইলে rgba(72, 202, 228, 1) বা rgba(72, 202, 228, 100%) দিলেই হবে */
+    width: 200px;
+    height: 200px;
+}
